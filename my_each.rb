@@ -7,4 +7,5 @@ def my_each(words) # put argument(s) here
     yield words[counter]
     counter = counter + 1
   end
+  words
 end
